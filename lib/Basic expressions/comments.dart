@@ -1,7 +1,7 @@
 void main() {
   // TODO: refactor into an AbstractLlamaGreetingFactory?
   print('Welcome to my Llama farm!');
-
+  
     /*
    * This is a lot of work. Consider raising chickens.
 
@@ -34,4 +34,10 @@ class Llama {
   void exercise(Activity activity, int timeLimit) {
     // ...
   }
+}
+
+class Activity {
+}
+
+class Food {
 }
